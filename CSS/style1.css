@@ -7,7 +7,7 @@
 
 /* DASAR: Gaya umum untuk seluruh website */
 body {
-  font-family: 'Roboto', 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #2d3748;
   line-height: 1.6;
 }
@@ -59,14 +59,16 @@ nav a:hover {
 
 /* BAGIAN HERO / BAGIAN UTAMA DI ATAS WEBSITE */
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  min-height: 80vh;
+  background-image: url("../IMAGES/background4.jpg!sw800");
+  background-size: cover;          /* supaya gambar menutupi seluruh area */
+  background-position: center;     /* agar fokus gambar di tengah */
+  background-repeat: no-repeat;    /* biar gak berulang */
+  min-height: 80vh;                /* tinggi hero sekitar 80% layar */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   text-align: center;
-  padding: 2rem;
+  color: white;                    /* teks jadi kontras */
   position: relative;
   overflow: hidden;
 }
@@ -77,8 +79,8 @@ nav a:hover {
 }
 
 .hero img {
-  width: 180px;
-  height: 180px;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
   border: 6px solid white;
   object-fit: cover;
@@ -187,7 +189,7 @@ nav a:hover {
 /* BAGIAN KONTAK */
 .contact {
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #667eea, #764ba2);
+  background: linear-gradient(135deg,#5E81AC, #394558);
   color: white;
   text-align: center;
 }
